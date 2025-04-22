@@ -15,13 +15,14 @@ class ThirdVC: UIViewController {
     }
     
     @IBAction func continueButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        if let vc = storyboard.instantiateViewController(withIdentifier: FourthVC.identifier) as? FourthVC {
-            vc.modalPresentationStyle = .fullScreen
-            vc.modalTransitionStyle = .crossDissolve
-            navigationController?.pushViewController(vc, animated: true)
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: FourthVC.identifier) as? FourthVC  else {
+            return
         }
-    }
-    
+        vc.modalPresentationStyle = .fullScreen
+        navigationController?.pushViewController(vc, animated: true)
+       }
     
 }
+    
+    
+

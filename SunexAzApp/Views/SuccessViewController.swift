@@ -8,15 +8,15 @@
 import UIKit
 
 class SuccessViewController: UIViewController {
-
+    
     var token: String?
-
-       @IBOutlet weak var tokenLabel: UILabel!
-
-       override func viewDidLoad() {
-           super.viewDidLoad()
-           tokenLabel.text = token ?? "Yoxdur"
-       }
+    
+    @IBOutlet weak var tokenLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tokenLabel.text = token ?? "Yoxdur"
+    }
     
     @IBAction func continueButton(_ sender: UIButton) {
         

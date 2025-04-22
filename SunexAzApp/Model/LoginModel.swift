@@ -9,7 +9,6 @@ import UIKit
 import Foundation
 
 struct LoginModel {
-    
     struct Request: Encodable {
         let email: String
         let password: String

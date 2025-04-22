@@ -15,13 +15,12 @@ class OnboardinSecondVC: UIViewController {
     }
     
     @IBAction func continueButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        if let vc = storyboard.instantiateViewController(withIdentifier: ThirdVC.identifier) as? ThirdVC {
-            vc.modalPresentationStyle = .fullScreen
-            vc.modalTransitionStyle = .crossDissolve
-            self.navigationController?.pushViewController(vc, animated: true)
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: ThirdVC.identifier) as? ThirdVC  else {
+            return
         }
-    }
+        vc.modalPresentationStyle = .fullScreen
+        navigationController?.pushViewController(vc, animated: true)
+       }
     
+  }
 
-}

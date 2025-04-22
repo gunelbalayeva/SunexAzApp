@@ -8,12 +8,12 @@
 import UIKit
 
 class ErrorViewController: UIViewController {
-
-
-       override func viewDidLoad() {
-           super.viewDidLoad()
-
-       }
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
     @IBAction func comeBackButton(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: HomePageViewController.identifier) as? HomePageViewController else {
             return

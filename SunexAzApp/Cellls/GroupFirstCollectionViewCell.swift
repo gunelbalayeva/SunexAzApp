@@ -19,7 +19,6 @@ class GroupFirstCollectionViewCell: UICollectionViewCell {
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
     func configure(with item:Item){

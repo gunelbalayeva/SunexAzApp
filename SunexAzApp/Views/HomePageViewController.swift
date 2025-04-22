@@ -49,8 +49,7 @@ class HomePageViewController: UIViewController {
         collectionviewSecond.delegate = self
         
         //register
-        let nib = UINib(nibName: "GroupFirstCollectionViewCell", bundle: nil)
-        collectionviewfirst.register(nib, forCellWithReuseIdentifier: GroupFirstCollectionViewCell.identifier)
+        collectionviewfirst.register(GroupFirstCollectionViewCell.nib, forCellWithReuseIdentifier: GroupFirstCollectionViewCell.identifier)
         collectionviewfirst.showsVerticalScrollIndicator = false
         collectionviewSecond.showsVerticalScrollIndicator = false
         collectionviewfirst.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -67,11 +66,12 @@ class HomePageViewController: UIViewController {
             layout.minimumInteritemSpacing = 0
         }
         if let token = token {
-               fetchDashboardData(token: token)
-           } else {
-               print("Token mövcud deyil.")
-           }
+            fetchDashboardData(token: token)
+        } else {
+            print("Token mövcud deyil.")
+        }
     }
+    
     func fetchDashboardData(token: String) {
         networkService.getDashboard(token: token) { result in
             switch result {
@@ -90,7 +90,7 @@ class HomePageViewController: UIViewController {
             }
         }
     }
-
+    
 }
 
 extension HomePageViewController:UICollectionViewDelegate, UICollectionViewDataSource {

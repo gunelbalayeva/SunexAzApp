@@ -8,47 +8,48 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var logoImage:UIImageView!
     @IBOutlet weak var logoNameLabel:UILabel!
     
     override func viewDidLoad() {
-           super.viewDidLoad()
-           logoImage.alpha = 0
-           logoImage.transform = CGAffineTransform(rotationAngle: .pi)
-           logoNameLabel.transform = CGAffineTransform(translationX: 0, y: 50)
-           logoNameLabel.alpha = 0
-           animateLogo()
-       }
-       
-       func animateLogo() {
-           UIView.animate(withDuration: 1.5, delay: 0, options: [.curveEaseIn], animations: {
-               self.logoImage.alpha = 1
-               self.logoImage.transform = .identity
-           }) { _ in
-               self.animateLabel()
-           }
-       }
-       
-       func animateLabel() {
-           UIView.animate(withDuration: 1.0, delay: 0.5, options: [.curveEaseOut], animations: {
-               self.logoNameLabel.transform = .identity
-               self.logoNameLabel.alpha = 1
-           }) { _ in
-               self.navigateToMainViewController()
-           }
-       }
-       
-       func navigateToMainViewController() {
-           let storyboard = UIStoryboard(name: "Main", bundle: nil)
-           if let mainVC = storyboard.instantiateViewController(withIdentifier: "Onboarding1ViewController") as? Onboarding1ViewController {
-               mainVC.modalPresentationStyle = .fullScreen
-               self.present(mainVC, animated: true, completion: nil)
-           }
-       }
+        super.viewDidLoad()
+        logoImage.alpha = 0
+        logoImage.transform = CGAffineTransform(rotationAngle: .pi)
+        logoNameLabel.transform = CGAffineTransform(translationX: 0, y: 50)
+        logoNameLabel.alpha = 0
+        animateLogo()
+    }
     
-
-
+    func animateLogo() {
+        UIView.animate(withDuration: 1.5, delay: 0, options: [.curveEaseIn], animations: {
+            self.logoImage.alpha = 1
+            self.logoImage.transform = .identity
+        }) { _ in
+            self.animateLabel()
+        }
+    }
+    
+    func animateLabel() {
+        UIView.animate(withDuration: 1.0, delay: 0.5, options: [.curveEaseOut], animations: {
+            self.logoNameLabel.transform = .identity
+            self.logoNameLabel.alpha = 1
+        }) { _ in
+            self.navigateToMainViewController()
+        }
+    }
+    
+    func navigateToMainViewController() {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: Onboarding1ViewController.identifier) as? Onboarding1ViewController  else {
+            return
+        }
+        vc.modalPresentationStyle = .fullScreen
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+    
+    
 }
 

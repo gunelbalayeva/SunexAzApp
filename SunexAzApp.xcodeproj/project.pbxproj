@@ -13,6 +13,32 @@
 		CE9B80842DA2EFD2002F8DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9B80822DA2EFD2002F8DFA /* Main.storyboard */; };
 		CE9B80862DA2EFD4002F8DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9B80852DA2EFD4002F8DFA /* Assets.xcassets */; };
 		CE9B80892DA2EFD4002F8DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9B80872DA2EFD4002F8DFA /* LaunchScreen.storyboard */; };
+		CE9B80922DA3141B002F8DFA /* Onboarding1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80912DA3141B002F8DFA /* Onboarding1ViewController.swift */; };
+		CE9B80E22DA7E5FE002F8DFA /* OnboardinSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80E12DA7E5FE002F8DFA /* OnboardinSecondVC.swift */; };
+		CE9B80E42DA7E64E002F8DFA /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80E32DA7E64E002F8DFA /* ThirdVC.swift */; };
+		CE9B80E62DA7E683002F8DFA /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80E52DA7E683002F8DFA /* FourthVC.swift */; };
+		CE9B80E92DA7EA86002F8DFA /* Viewcontroller+exc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80E82DA7EA86002F8DFA /* Viewcontroller+exc.swift */; };
+		CE9B80EC2DA7F282002F8DFA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80EB2DA7F282002F8DFA /* RegisterViewController.swift */; };
+		CE9B80EF2DA7F32E002F8DFA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80EE2DA7F32E002F8DFA /* SignInViewController.swift */; };
+		CE9B80F22DA7FA3B002F8DFA /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80F12DA7FA3B002F8DFA /* ForgetPasswordViewController.swift */; };
+		CE9B80F52DA7FCED002F8DFA /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80F42DA7FCED002F8DFA /* SuccessViewController.swift */; };
+		CE9B80F72DA7FCFB002F8DFA /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80F62DA7FCFB002F8DFA /* ErrorViewController.swift */; };
+		CE9B80FA2DAAA944002F8DFA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80F92DAAA944002F8DFA /* NetworkService.swift */; };
+		CE9B80FD2DAAB41D002F8DFA /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80FC2DAAB41D002F8DFA /* LoginModel.swift */; };
+		CE9B81002DABFBEE002F8DFA /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B80FF2DABFBEE002F8DFA /* HomePageViewController.swift */; };
+		CE9B81042DABFD31002F8DFA /* GroupFirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B81022DABFD31002F8DFA /* GroupFirstCollectionViewCell.swift */; };
+		CE9B81052DABFD31002F8DFA /* GroupFirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9B81032DABFD31002F8DFA /* GroupFirstCollectionViewCell.xib */; };
+		CE9B81082DAC01BC002F8DFA /* CollectionView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B81072DAC01BC002F8DFA /* CollectionView+ext.swift */; };
+		CE9B810F2DAC1960002F8DFA /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B810D2DAC1960002F8DFA /* SecondCollectionViewCell.swift */; };
+		CE9B81142DAD42F3002F8DFA /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B81132DAD42F3002F8DFA /* RegisterModel.swift */; };
+		CEE4D88B2DAE71560082AF68 /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D88A2DAE71560082AF68 /* ForgetPassword.swift */; };
+		CEE4D8902DB00FCB0082AF68 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D88F2DB00FCB0082AF68 /* DashboardModel.swift */; };
+		CEE4D8942DB0F30B0082AF68 /* RegisterMockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8932DB0F2FA0082AF68 /* RegisterMockResponse.json */; };
+		CEE4D8962DB0F38C0082AF68 /* JSONMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8952DB0F38C0082AF68 /* JSONMockData.swift */; };
+		CEE4D8982DB0F68C0082AF68 /* LoginMockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8972DB0F68C0082AF68 /* LoginMockResponse.json */; };
+		CEE4D89B2DB0FA320082AF68 /* DashboardMockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D89A2DB0FA320082AF68 /* DashboardMockResponse.json */; };
+		CEE4D89E2DB13B960082AF68 /* ForgotPasswordMock.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D89D2DB13B960082AF68 /* ForgotPasswordMock.json */; };
+		CEE4D8AA2DB241170082AF68 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8A92DB241170082AF68 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +50,32 @@
 		CE9B80852DA2EFD4002F8DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9B80882DA2EFD4002F8DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9B808A2DA2EFD4002F8DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9B80912DA3141B002F8DFA /* Onboarding1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1ViewController.swift; sourceTree = "<group>"; };
+		CE9B80E12DA7E5FE002F8DFA /* OnboardinSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardinSecondVC.swift; sourceTree = "<group>"; };
+		CE9B80E32DA7E64E002F8DFA /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		CE9B80E52DA7E683002F8DFA /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
+		CE9B80E82DA7EA86002F8DFA /* Viewcontroller+exc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Viewcontroller+exc.swift"; sourceTree = "<group>"; };
+		CE9B80EB2DA7F282002F8DFA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE9B80EE2DA7F32E002F8DFA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CE9B80F12DA7FA3B002F8DFA /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		CE9B80F42DA7FCED002F8DFA /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		CE9B80F62DA7FCFB002F8DFA /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		CE9B80F92DAAA944002F8DFA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CE9B80FC2DAAB41D002F8DFA /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		CE9B80FF2DABFBEE002F8DFA /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		CE9B81022DABFD31002F8DFA /* GroupFirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE9B81032DABFD31002F8DFA /* GroupFirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupFirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE9B81072DAC01BC002F8DFA /* CollectionView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+ext.swift"; sourceTree = "<group>"; };
+		CE9B810D2DAC1960002F8DFA /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE9B81132DAD42F3002F8DFA /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		CEE4D88A2DAE71560082AF68 /* ForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
+		CEE4D88F2DB00FCB0082AF68 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardModel.swift; path = SunexAzApp/Model/DashboardModel.swift; sourceTree = SOURCE_ROOT; };
+		CEE4D8932DB0F2FA0082AF68 /* RegisterMockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RegisterMockResponse.json; sourceTree = "<group>"; };
+		CEE4D8952DB0F38C0082AF68 /* JSONMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMockData.swift; sourceTree = "<group>"; };
+		CEE4D8972DB0F68C0082AF68 /* LoginMockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LoginMockResponse.json; sourceTree = "<group>"; };
+		CEE4D89A2DB0FA320082AF68 /* DashboardMockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DashboardMockResponse.json; sourceTree = "<group>"; };
+		CEE4D89D2DB13B960082AF68 /* ForgotPasswordMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ForgotPasswordMock.json; sourceTree = "<group>"; };
+		CEE4D8A92DB241170082AF68 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +108,121 @@
 		CE9B807B2DA2EFD2002F8DFA /* SunexAzApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE9B807C2DA2EFD2002F8DFA /* AppDelegate.swift */,
-				CE9B807E2DA2EFD2002F8DFA /* SceneDelegate.swift */,
-				CE9B80802DA2EFD2002F8DFA /* ViewController.swift */,
+				CEE4D8A82DB240FE0082AF68 /* Tabbar */,
+				CE9B81062DAC01A1002F8DFA /* Ext */,
+				CEE4D8A62DB1503E0082AF68 /* Model */,
+				CEE4D8A52DB1500D0082AF68 /* JSON */,
+				CEE4D8A42DB14FEA0082AF68 /* MockData */,
+				CEE4D8912DB0F28B0082AF68 /* Network */,
+				CEE4D8A22DB14F640082AF68 /* App */,
+				CEE4D8A12DB14EA70082AF68 /* Views */,
+				CEE4D8A02DB14E7A0082AF68 /* Cellls */,
 				CE9B80822DA2EFD2002F8DFA /* Main.storyboard */,
 				CE9B80852DA2EFD4002F8DFA /* Assets.xcassets */,
 				CE9B80872DA2EFD4002F8DFA /* LaunchScreen.storyboard */,
 				CE9B808A2DA2EFD4002F8DFA /* Info.plist */,
 			);
 			path = SunexAzApp;
+			sourceTree = "<group>";
+		};
+		CE9B80902DA313FC002F8DFA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B80912DA3141B002F8DFA /* Onboarding1ViewController.swift */,
+				CE9B80E12DA7E5FE002F8DFA /* OnboardinSecondVC.swift */,
+				CE9B80E32DA7E64E002F8DFA /* ThirdVC.swift */,
+				CE9B80E52DA7E683002F8DFA /* FourthVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CE9B81062DAC01A1002F8DFA /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B81072DAC01BC002F8DFA /* CollectionView+ext.swift */,
+				CE9B80E82DA7EA86002F8DFA /* Viewcontroller+exc.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		CEE4D8912DB0F28B0082AF68 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B80F92DAAA944002F8DFA /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CEE4D8A02DB14E7A0082AF68 /* Cellls */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B810D2DAC1960002F8DFA /* SecondCollectionViewCell.swift */,
+				CE9B81022DABFD31002F8DFA /* GroupFirstCollectionViewCell.swift */,
+				CE9B81032DABFD31002F8DFA /* GroupFirstCollectionViewCell.xib */,
+			);
+			path = Cellls;
+			sourceTree = "<group>";
+		};
+		CEE4D8A12DB14EA70082AF68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B80902DA313FC002F8DFA /* Onboarding */,
+				CE9B80FF2DABFBEE002F8DFA /* HomePageViewController.swift */,
+				CE9B80F42DA7FCED002F8DFA /* SuccessViewController.swift */,
+				CE9B80F62DA7FCFB002F8DFA /* ErrorViewController.swift */,
+				CE9B80F12DA7FA3B002F8DFA /* ForgetPasswordViewController.swift */,
+				CE9B80EE2DA7F32E002F8DFA /* SignInViewController.swift */,
+				CE9B80EB2DA7F282002F8DFA /* RegisterViewController.swift */,
+				CE9B80802DA2EFD2002F8DFA /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE4D8A22DB14F640082AF68 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B807C2DA2EFD2002F8DFA /* AppDelegate.swift */,
+				CE9B807E2DA2EFD2002F8DFA /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEE4D8A42DB14FEA0082AF68 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8952DB0F38C0082AF68 /* JSONMockData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		CEE4D8A52DB1500D0082AF68 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D89A2DB0FA320082AF68 /* DashboardMockResponse.json */,
+				CEE4D8932DB0F2FA0082AF68 /* RegisterMockResponse.json */,
+				CEE4D8972DB0F68C0082AF68 /* LoginMockResponse.json */,
+				CEE4D89D2DB13B960082AF68 /* ForgotPasswordMock.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		CEE4D8A62DB1503E0082AF68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D88F2DB00FCB0082AF68 /* DashboardModel.swift */,
+				CEE4D88A2DAE71560082AF68 /* ForgetPassword.swift */,
+				CE9B81132DAD42F3002F8DFA /* RegisterModel.swift */,
+				CE9B80FC2DAAB41D002F8DFA /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE4D8A82DB240FE0082AF68 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8A92DB241170082AF68 /* MainTabBarController.swift */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +285,12 @@
 			files = (
 				CE9B80892DA2EFD4002F8DFA /* LaunchScreen.storyboard in Resources */,
 				CE9B80862DA2EFD4002F8DFA /* Assets.xcassets in Resources */,
+				CEE4D8982DB0F68C0082AF68 /* LoginMockResponse.json in Resources */,
+				CE9B81052DABFD31002F8DFA /* GroupFirstCollectionViewCell.xib in Resources */,
 				CE9B80842DA2EFD2002F8DFA /* Main.storyboard in Resources */,
+				CEE4D89E2DB13B960082AF68 /* ForgotPasswordMock.json in Resources */,
+				CEE4D8942DB0F30B0082AF68 /* RegisterMockResponse.json in Resources */,
+				CEE4D89B2DB0FA320082AF68 /* DashboardMockResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +301,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9B80F22DA7FA3B002F8DFA /* ForgetPasswordViewController.swift in Sources */,
+				CE9B80EC2DA7F282002F8DFA /* RegisterViewController.swift in Sources */,
+				CEE4D8AA2DB241170082AF68 /* MainTabBarController.swift in Sources */,
+				CE9B81082DAC01BC002F8DFA /* CollectionView+ext.swift in Sources */,
+				CE9B80F72DA7FCFB002F8DFA /* ErrorViewController.swift in Sources */,
+				CE9B810F2DAC1960002F8DFA /* SecondCollectionViewCell.swift in Sources */,
+				CEE4D8962DB0F38C0082AF68 /* JSONMockData.swift in Sources */,
+				CE9B80E42DA7E64E002F8DFA /* ThirdVC.swift in Sources */,
 				CE9B80812DA2EFD2002F8DFA /* ViewController.swift in Sources */,
+				CE9B80E22DA7E5FE002F8DFA /* OnboardinSecondVC.swift in Sources */,
+				CE9B80FA2DAAA944002F8DFA /* NetworkService.swift in Sources */,
+				CE9B80922DA3141B002F8DFA /* Onboarding1ViewController.swift in Sources */,
 				CE9B807D2DA2EFD2002F8DFA /* AppDelegate.swift in Sources */,
+				CE9B80E92DA7EA86002F8DFA /* Viewcontroller+exc.swift in Sources */,
+				CEE4D8902DB00FCB0082AF68 /* DashboardModel.swift in Sources */,
+				CE9B80FD2DAAB41D002F8DFA /* LoginModel.swift in Sources */,
+				CEE4D88B2DAE71560082AF68 /* ForgetPassword.swift in Sources */,
+				CE9B80E62DA7E683002F8DFA /* FourthVC.swift in Sources */,
+				CE9B81042DABFD31002F8DFA /* GroupFirstCollectionViewCell.swift in Sources */,
+				CE9B81002DABFBEE002F8DFA /* HomePageViewController.swift in Sources */,
+				CE9B81142DAD42F3002F8DFA /* RegisterModel.swift in Sources */,
+				CE9B80EF2DA7F32E002F8DFA /* SignInViewController.swift in Sources */,
+				CE9B80F52DA7FCED002F8DFA /* SuccessViewController.swift in Sources */,
 				CE9B807F2DA2EFD2002F8DFA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

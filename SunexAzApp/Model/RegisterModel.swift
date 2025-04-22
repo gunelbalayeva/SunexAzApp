@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 struct RegisterModel {
-    
     struct Request:Encodable {
         let Name: String
         let Surname: String

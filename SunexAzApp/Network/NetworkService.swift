@@ -149,7 +149,7 @@ class NetworkService {
             completion(.failure(NetworkError(message: "Mock fayl tapılmadı.")))
         }
     }
-
+    
     
     private func requestBuilder(with url:String, method:HTTPMethod, body :Encodable?) -> URLRequest{
         let url = URL(string: url)!

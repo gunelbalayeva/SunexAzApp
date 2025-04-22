@@ -7,7 +7,6 @@
 
 import Foundation
 struct DashboardModel{
-    
     struct User: Decodable {
         let Name: String
         let Surname: String
@@ -26,14 +25,14 @@ struct DashboardModel{
         let id: Int
         let imageUrl: String
     }
-
+    
     struct Response: Decodable {
         let user: User
         let currentlyTotalAmountInMonth: Double
         let news: [NewsItem]
         let notificationCount: Int
     }
-
+    
     struct Request: Encodable {
         let Username: String
         let Password: String

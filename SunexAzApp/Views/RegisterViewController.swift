@@ -27,9 +27,11 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         title = "Qeydiyyat"
         scrollView.contentInset.bottom = 100
+        nameTextField.layer.cornerRadius = 16
     }
     
     @IBAction func senderClickButton(){
+        
         let request = RegisterModel.Request(
             Name: nameTextField.text ?? "",
             Surname: surnameTextField.text ?? "",
@@ -47,17 +49,15 @@ class RegisterViewController: UIViewController {
             DispatchQueue.main.async {
                 switch result {
                 case .success(let response):
-                    self.showAlert(title: "Uğurlu qeydiyyat", message: "Qeydiyyat tamamlandı!")
                     print("Response: \(response)")
                     let token = response.data
                     UserDefaults.standard.set(token, forKey: "accessToken")
                     
-                    DispatchQueue.main.async {
-                        print("HomePageViewController SALAM")
+                    self.showAlert(title: "Uğurlu qeydiyyat", message: "Qeydiyyat tamamlandı!") {
                         if let vc = self.storyboard?.instantiateViewController(withIdentifier: HomePageViewController.identifier) as? HomePageViewController {
                             vc.token = token
-                            self.present(vc, animated: true)
-                            print("Navigation yoxdu")
+                            self.navigationController?.pushViewController(vc, animated: true)
+                            print("Navigation başlandı")
                         }
                     }
                 case .failure(let error):
@@ -72,11 +72,12 @@ class RegisterViewController: UIViewController {
             }
         }
     }
-    func showAlert(title: String, message: String) {
+    func showAlert(title: String, message: String, handler: (() -> Void)? = nil) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: .default))
+        alertController.addAction(UIAlertAction(title: "OK", style: .default) { _ in
+            handler?()
+        })
         self.present(alertController, animated: true)
     }
-
     
 }
