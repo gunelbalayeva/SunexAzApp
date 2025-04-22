@@ -1,0 +1,28 @@
+{
+  "user": {
+    "Name": "Balayeva",
+    "Surname": "Gunel",
+    "CustomerNumber": 123456,
+    "Username": "gunelbalayeva_",
+    "BalanceTL": 1500.75,
+    "BalanceUSD": 200.50,
+    "BalanceBonus": 300.00,
+    "BranchName": "Yasamal",
+    "isVipUser": true,
+    "Email": "balayevagunel@gmail.com",
+    "PhoneNumber": "0501234567"
+  },
+  "currentlyTotalAmountInMonth": 50.0,
+  "news": [
+    {
+      "id": 1,
+      "imageUrl": ""
+    },
+    {
+      "id": 2,
+      "imageUrl": ""
+    }
+  ],
+  "notificationCount": 3
+}
+

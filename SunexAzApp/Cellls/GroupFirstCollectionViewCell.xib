@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GroupFirstCollectionViewCell" customModule="SunexAzApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="181" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="181" height="125"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sa3-pH-0nr">
+                        <rect key="frame" x="16" y="16" width="149" height="93"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uoI-9O-JZr">
+                                <rect key="frame" x="58.666666666666671" y="0.0" width="32" height="32"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calculator R" translatesAutoresizingMaskIntoConstraints="NO" id="6m2-Bf-fUs">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="1XT-7z-VbZ"/>
+                                            <constraint firstAttribute="width" constant="32" id="ThP-MA-TWB"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Xaricdəki ünvanlarım" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pk-I7-BgD">
+                                <rect key="frame" x="15.666666666666664" y="32" width="117.66666666666669" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Color 3"/>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="Color 3"/>
+            <constraints>
+                <constraint firstItem="Sa3-pH-0nr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="1T1-rs-eDh"/>
+                <constraint firstAttribute="bottom" secondItem="Sa3-pH-0nr" secondAttribute="bottom" constant="16" id="4bG-is-drl"/>
+                <constraint firstItem="Sa3-pH-0nr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="6mD-OZ-pNF"/>
+                <constraint firstAttribute="trailing" secondItem="Sa3-pH-0nr" secondAttribute="trailing" constant="16" id="qaL-rM-vvX"/>
+            </constraints>
+            <size key="customSize" width="181" height="125"/>
+            <connections>
+                <outlet property="imageview" destination="6m2-Bf-fUs" id="eIv-YO-Qlh"/>
+                <outlet property="titleLabel" destination="1pk-I7-BgD" id="Wph-xP-uql"/>
+            </connections>
+            <point key="canvasLocation" x="101.5267175572519" y="-12.323943661971832"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Calculator R" width="32" height="32"/>
+        <namedColor name="Color 3">
+            <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
